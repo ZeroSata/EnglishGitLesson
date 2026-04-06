@@ -3,11 +3,11 @@ def calculate_sum(addend_1:float, addend_2:float) -> float:
     return sum
 
 def calculate_subtraction(minuend:float, subtrahend:float) -> float:
-    subtraction = minuend - subtrahend
-    return subtraction
+    difference = minuend - subtrahend
+    return difference
 
-def calculate_multiplication(fador:float, fador_1:float) -> float:
-    produot = fador * fador_1
+def calculate_multiplication(fador:float, fador_2:float) -> float:
+    produot = fador * fador_2
     return produot
 
 def calculate_dirision(dirisor:float, diriend:float) -> float:
@@ -15,5 +15,5 @@ def calculate_dirision(dirisor:float, diriend:float) -> float:
     return quotient
 
 def calculate_exporentiotion(base:float, power:float) -> float:
-    result =  power / power 
+    result =  base / power 
     return result
